@@ -23,6 +23,7 @@
     "@types/node": "^20.11.30",
     "@vite-pwa/nuxt": "^0.6.0",
     "nuxt": "^3.11.1",
+    "nuxt-vercel-analytics": "^1.0.2",
     "postcss-import": "^16.1.0",
     "sass": "^1.72.0",
     "vue": "^3.4.21",
@@ -30,7 +31,6 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.14.2",
-    "@vercel/analytics": "^1.2.2",
     "@vueuse/nuxt": "^10.9.0",
     "autoprefixer": "^10.4.18",
     "eslint": "^8.57.0",

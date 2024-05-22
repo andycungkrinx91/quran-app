@@ -17,6 +17,7 @@
 ## :dart: About
 
 <p>This is a Web application for the Islamic religion, built with Nuxt JS</p>
+<p> Forked from : https://github.com/ionivetech/islam-app</p>
 
 <br>
 
