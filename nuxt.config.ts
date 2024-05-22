@@ -82,7 +82,7 @@ export default defineNuxtConfig({
       start_url: '/',
       name: 'Quran App',
       short_name: 'Quran App',
-      description: 'Web application for the Islamic religion',
+      description: 'Web application Al Quran for the Islamic religion',
       icons: [
         {
           src: '/icon-pwa/icon-192x192.png',
