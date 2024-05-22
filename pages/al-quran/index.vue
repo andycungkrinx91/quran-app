@@ -59,7 +59,7 @@ useHead({
   meta: [
     { name: 'description', content: 'Alquran Digital Untuk Umat Islam Dengan Tampilan Mobile Friendly.' },
     { property:'og:description', content: 'Quran App |Alquran Online | Alquran Digital | Alquranku'},
-    { property:'og:image', content: 'https://alquran-apps.vercel.app/logo-full.svg'},
+    { property:'og:image', content: 'https://alquran-apps.vercel.app/logo-full.png'},
   ],
 })
 </script>
