@@ -61,7 +61,7 @@ watchEffect(() => {
 })
 
 useServerSeoMeta({
-  title: 'Doa | Islam App',
+  title: 'Doa | Quran App',
 })
 </script>
 

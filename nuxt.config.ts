@@ -4,12 +4,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   app: {
-    pageTransition: { name: 'fade', mode: 'out-in' },
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: {name: 'fade', mode: 'out-in'},
     head: {
       meta: [
         { name: 'theme-color', content: '#ffffff' },
-        { name: 'name', content: 'Islam Application' },
-        { name: 'author', content: 'Ionive Tech' },
+        { name: 'name', content: 'Quran App' },
+        { name: 'author', content: 'Andy Setiyawan' },
       ],
       htmlAttrs: {
         lang: 'id',
@@ -34,7 +35,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      Mallanna: [100, 200, 300, 400, 500, 600, 700, 800, 900],
       'Scheherazade New': true,
     },
     display: 'swap',
@@ -79,8 +80,8 @@ export default defineNuxtConfig({
       display: 'standalone',
       scope: '/',
       start_url: '/',
-      name: 'Islam Application',
-      short_name: 'Islam App',
+      name: 'Quran App',
+      short_name: 'Quran App',
       description: 'Web application for the Islamic religion',
       icons: [
         {

@@ -175,7 +175,7 @@ const initAudioPlayer = () => {
             <div class="relative mb-1 flex w-full items-center">
               <!-- Play & Pause button -->
               <div
-                class="relative mr-2 flex size-10 cursor-pointer items-center justify-center rounded-full bg-teal-600 text-2xl text-white md:absolute md:inset-x-0 md:mx-auto md:size-12"
+                class="relative mr-2 flex size-10 cursor-pointer items-center justify-center rounded-full bg-cyan-600 text-2xl text-white md:absolute md:inset-x-0 md:mx-auto md:size-12"
                 role="button"
                 @click="togglePlay"
               >
@@ -237,7 +237,7 @@ const initAudioPlayer = () => {
   @apply appearance-none w-full h-1 outline-none cursor-pointer;
   background: linear-gradient(
     to right,
-    theme('colors.teal.500') var(--progress),
+    theme('colors.cyan.500') var(--progress),
     theme('colors.zinc.200') var(--progress)
   );
 }
@@ -245,28 +245,28 @@ const initAudioPlayer = () => {
 html.dark #slider {
   background: linear-gradient(
     to right,
-    theme('colors.teal.500') var(--progress),
+    theme('colors.cyan.500') var(--progress),
     theme('colors.zinc.600') var(--progress)
   );
 }
 
 /* Thumb: webkit */
 #slider::-webkit-slider-thumb {
-  @apply appearance-none w-3 h-3 bg-teal-600 rounded-full border-none transition-all ease-in-out duration-200;
+  @apply appearance-none w-3 h-3 bg-cyan-600 rounded-full border-none transition-all ease-in-out duration-200;
 }
 
 /* Thumb: Firefox */
 #slider::-moz-range-thumb {
-  @apply appearance-none w-3 h-3 bg-teal-600 rounded-full border-none transition-all ease-in-out duration-200;
+  @apply appearance-none w-3 h-3 bg-cyan-600 rounded-full border-none transition-all ease-in-out duration-200;
 }
 
 /* Hover Thumb: Webkit */
 #slider::-webkit-slider-thumb:hover {
-  @apply shadow-[0_0_0_10px] shadow-teal-300/30;
+  @apply shadow-[0_0_0_10px] shadow-cyan-300/30;
 }
 
 /* Hover Thumb: Firfox */
 #slider::-moz-range-thumb:hover {
-  @apply shadow-[0_0_0_10px] shadow-teal-300/30;
+  @apply shadow-[0_0_0_10px] shadow-cyan-300/30;
 }
 </style>

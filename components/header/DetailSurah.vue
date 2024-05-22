@@ -60,12 +60,12 @@ const playSurah = () => {
 
         <!-- Play button -->
         <div
-          class="flex cursor-pointer items-center text-xs text-teal-700 dark:text-teal-500 md:text-sm"
+          class="flex cursor-pointer items-center text-xs text-cyan-700 dark:text-cyan-500 md:text-sm"
           @click="playSurah"
         >
           <Icon
             name="heroicons:play-solid"
-            class="mr-1 text-base text-teal-700 dark:text-teal-500 md:text-lg"
+            class="mr-1 text-base text-cyan-700 dark:text-cyan-500 md:text-lg"
           />
           Putar
         </div>

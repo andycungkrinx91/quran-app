@@ -81,7 +81,7 @@ const clearResultSearch = () => {
 
 // Meta
 useHead({
-  title: 'Hadits | Islam App',
+  title: 'Hadits | Quran App',
 })
 </script>
 

@@ -39,10 +39,10 @@ const playSurah = () => {
   <div class="flex w-full flex-col gap-8">
     <!-- Header -->
     <div
-      class="flex items-center justify-between rounded-xl bg-teal-600/10 px-4 py-1.5 dark:bg-teal-200/10"
+      class="flex items-center justify-between rounded-xl bg-cyan-600/10 px-4 py-1.5 dark:bg-cyan-200/10"
     >
       <!-- Number surah & ayat -->
-      <p class="text-sm font-semibold tracking-wide text-teal-700 dark:text-teal-500">
+      <p class="text-sm font-semibold tracking-wide text-cyan-700 dark:text-cyan-500">
         {{ verse.nomorAyat }}
       </p>
 
@@ -50,7 +50,7 @@ const playSurah = () => {
         <!-- Play ayat -->
         <UTooltip text="Putar ayat">
           <div
-            class="flex size-8 cursor-pointer items-center justify-center rounded-full text-lg text-teal-700 hover:bg-teal-100/60 dark:text-teal-500 hover:dark:bg-teal-200/10"
+            class="flex size-8 cursor-pointer items-center justify-center rounded-full text-lg text-cyan-700 hover:bg-cyan-100/60 dark:text-cyan-500 hover:dark:bg-cyan-200/10"
             role="button"
             @click="playSurah"
           >
@@ -61,7 +61,7 @@ const playSurah = () => {
         <!-- Button tafsir -->
         <UTooltip text="Tafsir">
           <div
-            class="flex size-8 cursor-pointer items-center justify-center rounded-full text-lg text-teal-700 hover:bg-teal-100/60 dark:text-teal-500 hover:dark:bg-teal-200/10"
+            class="flex size-8 cursor-pointer items-center justify-center rounded-full text-lg text-cyan-700 hover:bg-cyan-100/60 dark:text-cyan-500 hover:dark:bg-cyan-200/10"
             role="button"
             @click="emits('open-tafsir', index)"
           >
@@ -81,7 +81,7 @@ const playSurah = () => {
         {{ verse.teksArab }}
       </p>
 
-      <p class="mb-3 text-sm !leading-7 tracking-wide text-teal-800 dark:text-white md:text-base">
+      <p class="mb-3 text-sm !leading-7 tracking-wide text-cyan-800 dark:text-white md:text-base">
         {{ verse.teksLatin }}
       </p>
       <p class="text-sm !leading-7 text-smoke-1 dark:text-slate-400 md:text-base">

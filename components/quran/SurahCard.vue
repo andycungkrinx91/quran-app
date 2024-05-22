@@ -29,12 +29,12 @@ const toggleFavorite = () => {
 <template>
   <NuxtLink
     :to="`/al-quran/${surah.nomor}`"
-    class="group w-full cursor-pointer rounded-lg border border-gray-300/70 p-3 hover:border-teal-600 hover:shadow-surah-card dark:border-gray-700 dark:hover:border-teal-600 dark:hover:shadow-surah-card-dark"
+    class="group w-full cursor-pointer rounded-lg border border-gray-300/70 p-3 hover:border-cyan-600 hover:shadow-surah-card dark:border-gray-700 dark:hover:border-cyan-600 dark:hover:shadow-surah-card-dark"
   >
     <div class="mb-3 flex items-center justify-between">
       <!-- Number -->
       <div
-        class="flex size-10 items-center justify-center rounded-full bg-gray-200/50 text-xs font-medium text-yami group-hover:bg-teal-600 group-hover:text-white dark:bg-slate-700 dark:text-slate-300"
+        class="flex size-10 items-center justify-center rounded-full bg-gray-200/50 text-xs font-medium text-yami group-hover:bg-cyan-600 group-hover:text-white dark:bg-slate-700 dark:text-slate-300"
       >
         {{ surah.nomor }}
       </div>
@@ -43,7 +43,7 @@ const toggleFavorite = () => {
       <UTooltip :text="surah.isFavorite ? 'Hapus dari favorit' : 'Tambah ke favorit'">
         <Icon
           :name="surah.isFavorite ? 'heroicons:heart-solid' : 'heroicons:heart'"
-          :class="surah.isFavorite ? 'text-teal-600' : 'text-slate-500 dark:text-slate-300'"
+          :class="surah.isFavorite ? 'text-cyan-600' : 'text-slate-500 dark:text-slate-300'"
           class="z-10 text-xl"
           @click.prevent="toggleFavorite"
         />

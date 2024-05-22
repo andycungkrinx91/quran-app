@@ -83,7 +83,7 @@ const closeModal = () => (showModal.value = false)
           <div
             v-for="loc in locationLists"
             :key="loc.id"
-            class="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-gray-100 p-3 text-sm capitalize text-gray-600 transition-colors duration-200 ease-in-out hover:border-teal-600 dark:bg-slate-700/30 dark:text-slate-200"
+            class="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-gray-100 p-3 text-sm capitalize text-gray-600 transition-colors duration-200 ease-in-out hover:border-cyan-600 dark:bg-slate-700/30 dark:text-slate-200"
             @click="emits('select-location', loc)"
           >
             {{ loc.lokasi }}

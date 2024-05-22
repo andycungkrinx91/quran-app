@@ -61,7 +61,7 @@ const hadithHistoryList: IHadithHistory[] = [
       :key="hadithHistory.slug"
       :class="
         selected === hadithHistory.slug
-          ? 'bg-teal-100 dark:bg-teal-800 text-teal-700 dark:text-teal-100'
+          ? 'bg-cyan-100 dark:bg-cyan-800 text-cyan-700 dark:text-cyan-100'
           : 'bg-gray-100/90 dark:bg-slate-600/60 text-slate-500/80 dark:text-slate-400'
       "
       class="w-min cursor-pointer whitespace-nowrap rounded-full px-3 py-1 text-sm font-medium"

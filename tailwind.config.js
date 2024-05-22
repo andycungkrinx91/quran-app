@@ -11,7 +11,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: 'Inter, sans-serif',
+      sans: 'Mallanna',
       mono: 'Scheherazade New, serif',
     },
     container: {
@@ -27,7 +27,7 @@ module.exports = {
     extend: {
       colors: {
         'background-light': 'rgb(255, 255, 255)',
-        'background-dark': 'rgb(31, 33, 37)',
+        'background-dark': 'rgb(38, 40, 43)',
         'background-dark-soft': 'rgb(37, 41, 47)',
         yami: 'rgb(17, 24, 39)',
         'smoke-1': 'rgb(55, 65, 81)',
@@ -36,7 +36,7 @@ module.exports = {
       boxShadow: {
         header: '0 4px 10px rgba(240, 240, 240, 1)',
         'surah-card': '0px 0px 12px #E7E7E7',
-        'surah-card-dark': '0px 0px 12px #181616',
+        'surah-card-dark': '0px 0px 12px #121111',
         slideover: '0px 4px 4px rgba(120, 120, 120, 0.25)',
       },
       gridTemplateColumns: {

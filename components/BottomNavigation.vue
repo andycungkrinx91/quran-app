@@ -38,7 +38,7 @@ const menus: { url: string; label: string; icon: string }[] = [
         :to="menu.url"
         :class="
           route.path.includes(menu.url)
-            ? 'text-teal-600 dark:text-teal-500'
+            ? 'text-cyan-600 dark:text-cyan-500'
             : 'text-yami/75 dark:text-gray-400'
         "
         class="flex flex-col items-center gap-y-1.5"

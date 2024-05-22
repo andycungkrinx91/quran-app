@@ -31,7 +31,7 @@ const deleteFromFavorite = (surah: ISurah): void => {
 <template>
   <div class="mb-12">
     <p
-      class="mb-3 border-l-4 border-teal-600 pl-2 text-base font-semibold text-yami dark:text-slate-200"
+      class="mb-3 border-l-4 border-cyan-600 pl-2 text-base font-semibold text-yami dark:text-slate-200"
     >
       Surah Favorit
     </p>
@@ -54,7 +54,7 @@ const deleteFromFavorite = (surah: ISurah): void => {
         v-for="(surah, index) in favorites"
         :key="`favorite-${index}`"
         :to="`/al-quran/${surah.nomor}`"
-        class="group min-w-[200px] max-w-[200px] cursor-pointer rounded-lg border border-gray-300/70 p-3 hover:border-teal-600 hover:shadow-surah-card dark:border-gray-700 dark:hover:border-teal-600 dark:hover:shadow-surah-card-dark"
+        class="group min-w-[200px] max-w-[200px] cursor-pointer rounded-lg border border-gray-300/70 p-3 hover:border-cyan-600 hover:shadow-surah-card dark:border-gray-700 dark:hover:border-cyan-600 dark:hover:shadow-surah-card-dark"
       >
         <div class="mb-3 flex items-center justify-between">
           <div>
@@ -69,7 +69,7 @@ const deleteFromFavorite = (surah: ISurah): void => {
           <UTooltip text="Hapus dari favorit">
             <Icon
               name="heroicons:heart-solid"
-              class="z-10 text-xl text-teal-600"
+              class="z-10 text-xl text-cyan-600"
               @click.prevent="deleteFromFavorite(surah)"
             />
           </UTooltip>

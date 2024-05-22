@@ -22,7 +22,7 @@ const tableColumns = ref<{ key: string; label: string }[]>([
 </script>
 
 <template>
-  <div class="rounded-xl bg-teal-600/5 p-4 dark:bg-background-dark-soft md:p-5">
+  <div class="rounded-xl bg-cyan-600/5 p-4 dark:bg-background-dark-soft md:p-5">
     <UTable
       :loading
       :loading-state="{ icon: 'i-heroicons-arrow-path-20-solid', label: 'Loading...' }"

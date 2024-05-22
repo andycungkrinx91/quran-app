@@ -52,7 +52,7 @@ defineProps<{
             </p>
 
             <p
-              class="mb-3 text-sm !leading-6 tracking-wide text-teal-800 dark:text-white md:text-base md:!leading-7"
+              class="mb-3 text-sm !leading-6 tracking-wide text-cyan-800 dark:text-white md:text-base md:!leading-7"
             >
               {{ item.latin }}
             </p>

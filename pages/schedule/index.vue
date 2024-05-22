@@ -142,7 +142,7 @@ const getPrayerTimeOneMonth = async () => {
         tanggal: (index + 1).toString().padStart(2, '0'),
         class:
           index + 1 === new Date().getDate()
-            ? 'active-row bg-teal-600/20 dark:bg-teal-500/20 rounded-lg'
+            ? 'active-row bg-cyan-600/20 dark:bg-cyan-500/20 rounded-lg'
             : '',
       }))
 
@@ -175,7 +175,7 @@ getAllLocation()
 
 // Meta
 useHead({
-  title: 'Jadwal Sholat | Islam App',
+  title: 'Jadwal Sholat | Quran App',
 })
 </script>
 
@@ -185,7 +185,7 @@ useHead({
     <div class="flex justify-end">
       <div
         role="button"
-        class="mb-2 flex cursor-pointer items-center space-x-1 text-sm font-medium text-teal-600 dark:text-teal-500 md:text-base"
+        class="mb-2 flex cursor-pointer items-center space-x-1 text-sm font-medium text-cyan-600 dark:text-cyan-500 md:text-base"
         @click="showModalLocation = true"
       >
         <Icon name="heroicons:pencil-20-solid" />
@@ -195,7 +195,7 @@ useHead({
 
     <!-- Header -->
     <div
-      class="mb-8 flex items-center justify-between space-x-2 rounded-xl bg-gradient-to-br from-teal-700 to-teal-500 px-5 py-7 dark:from-slate-700/50 dark:to-slate-600/60 md:mb-10"
+      class="mb-8 flex items-center justify-between space-x-2 rounded-xl bg-gradient-to-br from-cyan-700 to-cyan-500 px-5 py-7 dark:from-slate-700/50 dark:to-slate-600/60 md:mb-10"
     >
       <div>
         <h1 class="text-xl font-semibold text-white md:text-2xl">Jadwal Sholat</h1>
@@ -255,7 +255,7 @@ useHead({
         list: {
           background: 'bg-gray-100 dark:bg-background-dark-soft',
           tab: {
-            active: 'bg-teal-600 text-white',
+            active: 'bg-cyan-600 text-white',
           },
         },
       }"

@@ -109,7 +109,7 @@ onMounted(() => {
 })
 
 useSeoMeta({
-  title: () => `Surah ${dataDetail.value?.namaLatin} | Islam App`,
+  title: () => `Surah ${dataDetail.value?.namaLatin} | Quran App`,
   description: () => `Detail surah ${dataDetail.value?.namaLatin}`,
 })
 </script>

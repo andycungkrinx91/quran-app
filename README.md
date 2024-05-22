@@ -1,14 +1,18 @@
-<p align="center">
-  <img src="https://github.com/ionivetech/islam-app/blob/main/public/logo-full.svg" alt="alquran-list" align="center" />
-</p>
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/andycungkrinx91/quran-app)
+  ![GitHub stars](https://img.shields.io/github/stars/andycungkrinx91/quran-app?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/andycungkrinx91/quran-app?style=social)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/AndyCungkrinx?style=social)](https://twitter.com/intent/follow?screen_name=AndyCungkrinx)
 
-<h1 align="center">Islam Application</h1>
+  <br />
+  <br />
 
-<p align="center">
-  <a href="https://faridnugraha-islam.netlify.app/">DEMO</a>
-</p>
+  <h2 align="center">Quran Application</h2>
 
-<br>
+<a href="https://quran-app.vercel.app/"><strong>➥ Live Demo</strong></a>
+
+</div>
 
 ## :dart: About
 
@@ -31,21 +35,21 @@
 
 - [Al-Quran API](https://equran.id/apidev)
 - [Hadith API](https://equran.id/apidev)
-- [Prayer Data](https://github.com/ionivetech/islam-app/blob/main/assets/file/doa-harian.json)
+- [Prayer Data](https://github.com/andycungkrinx91/quran-app/blob/main/assets/file/doa-harian.json)
 
 <br>
 
 ## :art: Preview
 
-<img src="https://github.com/ionivetech/islam-app/blob/main/public/screenshot/alquran-list.png" alt="alquran-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/alquran-list.png" alt="alquran-list" />
 
-<img src="https://github.com/ionivetech/islam-app/blob/main/public/screenshot/alquran-detail.png" alt="alquran-detail" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/alquran-detail.png" alt="alquran-detail" />
 
-<img src="https://github.com/ionivetech/islam-app/blob/main/public/screenshot/hadith-list.png" alt="hadith-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/hadith-list.png" alt="hadith-list" />
 
-<img src="https://github.com/ionivetech/islam-app/blob/main/public/screenshot/prayer-list.png" alt="prayer-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-list.png" alt="prayer-list" />
 
-<img src="https://github.com/ionivetech/islam-app/blob/main/public/screenshot/prayer-schedule.png" alt="prayer-schedule" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-schedule.png" alt="prayer-schedule" />
 
 <br>
 
@@ -64,14 +68,14 @@ The following technology were used in this project:
 
 ```bash
 # Install dependencies
-$ pnpm install
+$ yarn install
 
 # Run on development
-$ pnpm dev
+$ yarn dev
 
 # Build application
-$ pnpm run
+$ yarn build
 
 # Run on production
-$ pnpm preview
+$ yarn start
 ```

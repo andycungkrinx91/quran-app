@@ -100,7 +100,7 @@ const handleSelectSurah = (id: number) => {
       <div
         v-for="data in surahList"
         :key="data.nama"
-        :class="{ '!bg-teal-600': data.namaLatin === detailSurah?.namaLatin }"
+        :class="{ '!bg-cyan-600': data.namaLatin === detailSurah?.namaLatin }"
         class="flex cursor-pointer items-center justify-between rounded px-3 py-2 hover:bg-zinc-200 dark:hover:bg-zinc-700"
         @click="handleSelectSurah(data.nomor)"
       >

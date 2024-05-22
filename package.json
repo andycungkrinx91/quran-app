@@ -1,16 +1,17 @@
 {
-  "name": "islam-app",
+  "name": "quran-app",
   "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --port 5000 --host",
-    "generate": "nuxt generate",
+    "build": "yarn generate generate && nuxt build",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt dev --port 5000 --host",
+    "generate": "NODE_OPTIONS='--max_old_space_size=4096' nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 NODE_OPTIONS='--max-http-header-size=16384' nuxt start"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.8",
