@@ -59,7 +59,9 @@
           </NuxtLink>
         </div>
 
-        <p class="pl-3 text-sm text-gray-600 dark:text-smoke-2">© 2024 All rights reserved Andy Setiyawan</p>
+        <p class="pl-3 text-sm text-gray-600 dark:text-smoke-2">
+          © 2024 All rights reserved Andy Setiyawan
+        </p>
       </div>
     </div>
   </footer>

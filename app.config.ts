@@ -4,12 +4,12 @@ export default defineAppConfig({
     gray: 'cool',
   },
   vercelAnalytics: {
-    mode: "auto",
+    mode: 'auto',
     debug: true,
     beforeSend: (event) => {
-      if (event.url.includes("/private")) return null;
+      if (event.url.includes('/private')) return null
 
-      return event;
+      return event
     },
   },
 })

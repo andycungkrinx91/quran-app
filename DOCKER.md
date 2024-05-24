@@ -28,8 +28,11 @@ $ update .env (dev for development mode and start for production mode)
 # Build docker
 $ docker build -t quran-app -f Dockerfile .
 
-# :door: Run docker
+# Run docker
 $ docker run -dit --privileged --restart=always --name quran-app -p 80:3000 quran-app /bin/bash -c 'yarn start'
+
+# Stop docker
+$ docker stop quran-app'
 ```
 
 ## :ledger: Docker compose
@@ -37,7 +40,7 @@ $ docker run -dit --privileged --restart=always --name quran-app -p 80:3000 qura
 # Run on docker compose
 $ ./run.sh 
 
-# :door: Docker Compose
+# Stop Docker Compose
 $ ./stop.sh
 ```
 
