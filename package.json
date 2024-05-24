@@ -23,6 +23,7 @@
     "@types/node": "^20.11.30",
     "@vite-pwa/nuxt": "^0.6.0",
     "nuxt": "^3.11.1",
+    "nuxt-og-image": "^3.0.0-rc.53",
     "nuxt-vercel-analytics": "^1.0.2",
     "postcss-import": "^16.1.0",
     "sass": "^1.72.0",
