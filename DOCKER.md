@@ -7,7 +7,7 @@
 
   <br />
   <br />
-
+</div>
 ## :computer: Docker Installation
 
 ```bash
@@ -17,6 +17,7 @@
 - run.sh
 - stop.sh
 - .env
+
 # Environment Declare
 $ update .env (dev for development mode and start for production mode)
 ```

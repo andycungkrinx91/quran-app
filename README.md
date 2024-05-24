@@ -11,7 +11,10 @@
   <h2 align="center">Quran Application</h2>
 
 <a href="https://quran-app.vercel.app/"><strong>➥ Live Demo</strong></a>
+<br>
 <a href="https://github.com/andycungkrinx91/quran-app/blob/main/CHANGELOG.md">Changelog</a>
+<br>
+<a href="https://github.com/andycungkrinx91/quran-app/blob/main/DOCKER.md">Readme For Using Docker</a>
 
 </div>
 
@@ -30,7 +33,6 @@
 - Play Surah Audio
 - Prayer Schedule
 - PWA (Progressive Web App)
-- Docker <a href="https://github.com/andycungkrinx91/quran-app/blob/main/DOCKER.md">Readme</a>
 
 <br>
 
