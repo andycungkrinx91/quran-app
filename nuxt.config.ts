@@ -166,7 +166,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  extend(config, ctx){
-    config.resolve.alias['vue'] = 'vue/dist/vue.common';
-}
 })
