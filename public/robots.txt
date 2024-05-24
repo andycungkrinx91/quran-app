@@ -1,3 +1,47 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+# *
+User-agent: MJ12bot
+User-agent: SemrushBot
+User-agent: Yandex
+User-agent: YandexBot
+User-agent: ZoominfoBot
+User-agent: um-LN
+User-agent: MTRobot
+User-agent: SafeDNSBot
+User-agent: Bytespider
+User-agent: bitlybot
+User-agent: Barkrowle
+User-agent: coccocbot-image
+User-agent: PetalBot
+User-agent: DotBot
+User-agent: BLEXBot
+User-agent: AspiegelBot
+User-agent: BaiduSpider
+User-agent: trovitBot
+User-agent: Mail.RU_Bot
+User-agent: SeznamBot
+User-agent: YisouSpider
+User-agent: zh-CN
+User-agent: Slackbot
+User-agent: Slackbot-LinkExpanding
+Disallow: /
+
+User-agent: AhrefsBot
+Crawl-Delay: 30
+
+User-agent: Googlebot
+Crawl-Delay: 60
+
+User-agent: Googlebot-Image
+Crawl-Delay: 60
+
+User-agent: Googlebot-Mobile
+Crawl-Delay: 60
+
+User-agent: Bingbot
+Crawl-Delay: 30
+
+# Host
+Host: https://alquran-apps.vercel.app/
+
+# Sitemaps
+Sitemap: https://portfolio-andy-setiyawan.vercel.app/pages-sitemap.xml

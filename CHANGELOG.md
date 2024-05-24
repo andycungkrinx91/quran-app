@@ -1,3 +1,11 @@
+## 1.0.7
+25-05-2024
+- Switch to pnpm
+- Update packaege.json
+- Add pnpm.lock
+- Add static sitemap
+- Update robots.txt
+
 ## 1.0.6
 24-05-2024
 - Update icon
