@@ -11,6 +11,15 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#ffffff' },
         { name: 'name', content: 'Quran App' },
         { name: 'author', content: 'Andy Setiyawan' },
+        {
+          name: 'description',
+          content: 'Quran App | Alquran App | Alquran Online | Alquran Digital',
+        },
+        {
+          property: 'og:description',
+          content: 'Alquran Digital Untuk Umat Islam Dengan Tampilan Mobile Friendly.',
+        },
+        { property: 'og:image', content: 'https://alquran-apps.vercel.app/logo-full.png' },
       ],
       htmlAttrs: {
         lang: 'id',
