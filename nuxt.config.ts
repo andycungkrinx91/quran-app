@@ -56,6 +56,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@vite-pwa/nuxt',
     'nuxt-vercel-analytics',
+    'nuxt-og-image',
   ],
 
   pinia: {
