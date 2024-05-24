@@ -144,7 +144,7 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': { prerender: true, redirect: { to: '/al-quran', statusCode: 301 } },
+    '/': { prerender: true, ssr: false, redirect: { to: '/al-quran', statusCode: 301 } },
     '/hadith': { ssr: true },
     '/prayer': { ssr: true },
     '/schedule': { ssr: false },
