@@ -19,7 +19,7 @@ export default defineNuxtConfig({
           property: 'og:description',
           content: 'Alquran Digital Untuk Umat Islam Dengan Tampilan Mobile Friendly.',
         },
-        { property: 'og:image', content: 'https://alquran-apps.vercel.app/logo-full.png' },
+        { property: 'og:image', content: 'https://alquran-apps.vercel.app/icon-pwa/quran-logo.png' },
       ],
       htmlAttrs: {
         lang: 'id',
