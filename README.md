@@ -11,6 +11,7 @@
   <h2 align="center">Quran Application</h2>
 
 <a href="https://quran-app.vercel.app/"><strong>➥ Live Demo</strong></a>
+<a href="https://github.com/andycungkrinx91/quran-app/blob/main/CHANGELOG.md">Changelog</a>
 
 </div>
 
@@ -29,6 +30,7 @@
 - Play Surah Audio
 - Prayer Schedule
 - PWA (Progressive Web App)
+- Docker <a href="https://github.com/andycungkrinx91/quran-app/blob/main/DOCKER.md">Readme</a>
 
 <br>
 
@@ -51,6 +53,8 @@
 <img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-list.png" alt="prayer-list" />
 
 <img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-schedule.png" alt="prayer-schedule" />
+
+<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/mobile-view.png" alt="mobile-view" />
 
 <br>
 
@@ -80,3 +84,8 @@ $ yarn build
 # Run on production
 $ yarn start
 ```
+
+<br>
+## :rocket: Browser access
+
+<a href="http://localhost:3000/"><strong>➥ http://localhost:3000 </strong></a>

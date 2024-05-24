@@ -1,0 +1,30 @@
+version: "3.6"
+networks:
+  node-network:
+    external: true
+    name: node-network
+services:
+  nodejs:
+    restart: unless-stopped # Set to 'always' for automatically restart
+    build: 
+      context: .
+    user: "${UID}:${GID}"
+    tty: true
+    ports:
+      - 80:3000
+    environment:
+      app_env: mongodb:27017
+    command:
+      - bash
+      - -c
+      - "npm run ${app_env}"
+    networks:
+      - node-network
+    deploy:
+      resources:
+        limits:
+          cpus: '${nodejs_cpus_limit}'
+          memory: ${nodejs_memory_limit}
+        reservations:
+          cpus: '${nodejs_cpus_request}'
+          memory: ${nodejs_memory_request}
