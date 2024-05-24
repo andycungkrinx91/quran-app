@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
-    layoutTransition: {name: 'fade', mode: 'out-in'},
+    layoutTransition: { name: 'fade', mode: 'out-in' },
     head: {
       meta: [
         { name: 'theme-color', content: '#ffffff' },
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt',
     '@vite-pwa/nuxt',
-    "nuxt-vercel-analytics"
+    'nuxt-vercel-analytics',
   ],
 
   pinia: {
