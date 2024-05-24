@@ -17,7 +17,7 @@ services:
     command:
       - bash
       - -c
-      - "npm run ${app_env}"
+      - "pnpm ${app_env}"
     networks:
       - node-network
     deploy:

@@ -19,7 +19,10 @@ export default defineNuxtConfig({
           property: 'og:description',
           content: 'Alquran Digital Untuk Umat Islam Dengan Tampilan Mobile Friendly.',
         },
-        { property: 'og:image', content: 'https://alquran-apps.vercel.app/icon-pwa/quran-logo.png' },
+        {
+          property: 'og:image',
+          content: 'https://alquran-apps.vercel.app/icon-pwa/quran-logo.png',
+        },
       ],
       htmlAttrs: {
         lang: 'id',
@@ -66,6 +69,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     'nuxt-vercel-analytics',
     'nuxt-og-image',
+    '@nuxtjs/sitemap',
   ],
 
   pinia: {
@@ -150,5 +154,16 @@ export default defineNuxtConfig({
     cssPath: '~/assets/css/main.scss',
     configPath: 'tailwind.config',
     viewer: false,
+  },
+  site: {
+    url: 'https://alquran-apps.vercel.app',
+  },
+  sitemap: {
+    sources: ['/api/sitemaps'],
+    sitemaps: {
+      pages: {
+        includeAppSources: true,
+      },
+    },
   },
 })
