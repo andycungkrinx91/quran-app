@@ -12,9 +12,9 @@
 
 <a href="https://quran-app.vercel.app/"><strong>➥ Live Demo</strong></a>
 <br>
-<a href="https://github.com/andycungkrinx91/quran-app/blob/main/CHANGELOG.md">Changelog</a>
+<a href="https://github.com/andycungkrinx91/quran-app/blob/master/CHANGELOG.md">Changelog</a>
 <br>
-<a href="https://github.com/andycungkrinx91/quran-app/blob/main/DOCKER.md">Readme For Using Docker</a>
+<a href="https://github.com/andycungkrinx91/quran-app/blob/master/DOCKER.md">Readme For Using Docker</a>
 
 </div>
 
@@ -40,23 +40,23 @@
 
 - [Al-Quran API](https://equran.id/apidev)
 - [Hadith API](https://equran.id/apidev)
-- [Prayer Data](https://github.com/andycungkrinx91/quran-app/blob/main/assets/file/doa-harian.json)
+- [Prayer Data](https://github.com/andycungkrinx91/quran-app/blob/master/assets/file/doa-harian.json)
 
 <br>
 
 ## :art: Preview
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/alquran-list.png" alt="alquran-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/alquran-list.png" alt="alquran-list" />
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/alquran-detail.png" alt="alquran-detail" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/alquran-detail.png" alt="alquran-detail" />
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/hadith-list.png" alt="hadith-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/hadith-list.png" alt="hadith-list" />
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-list.png" alt="prayer-list" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/prayer-list.png" alt="prayer-list" />
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/prayer-schedule.png" alt="prayer-schedule" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/prayer-schedule.png" alt="prayer-schedule" />
 
-<img src="https://github.com/andycungkrinx91/quran-app/blob/main/public/screenshot/mobile-view.png" alt="mobile-view" />
+<img src="https://github.com/andycungkrinx91/quran-app/blob/master/public/screenshot/mobile-view.png" alt="mobile-view" />
 
 <br>
 
