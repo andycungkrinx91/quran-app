@@ -74,17 +74,20 @@ The following technology were used in this project:
 ## :checkered_flag: Installation
 
 ```bash
+# Install pnpm
+$ npn i -g pnpm
+
 # Install dependencies
-$ yarn install
+$ pnpm install
 
 # Run on development
-$ yarn dev
+$ pnpm dev
 
 # Build application
-$ yarn build
+$ pnpm build
 
 # Run on production
-$ yarn start
+$ pnpm start
 ```
 
 <br>
