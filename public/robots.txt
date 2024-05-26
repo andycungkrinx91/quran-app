@@ -41,7 +41,7 @@ User-agent: Bingbot
 Crawl-Delay: 30
 
 # Host
-Host: https://alquran-apps.vercel.app/
+Host: https://alquran-apps.vercel.app/al-quran
 
 # Sitemaps
 Sitemap: https://portfolio-andy-setiyawan.vercel.app/pages-sitemap.xml
