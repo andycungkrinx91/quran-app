@@ -1,7 +1,7 @@
 export default defineSitemapEventHandler(() => {
   return [
     {
-      loc: '/alquran',
+      loc: '/al-quran',
     },
     {
       loc: '/hadith',
@@ -13,436 +13,346 @@ export default defineSitemapEventHandler(() => {
       loc: '/schedule',
     },
     {
-      loc: '/alquran/1',
+      loc: '/al-quran/1',
     },
     {
-      loc: '/alquran/2',
+      loc: '/al-quran/2',
     },
     {
-      loc: '/alquran/3',
+      loc: '/al-quran/3',
     },
     {
-      loc: '/alquran/4',
+      loc: '/al-quran/4',
     },
     {
-      loc: '/alquran/5',
+      loc: '/al-quran/5',
     },
     {
-      loc: '/alquran/6',
+      loc: '/al-quran/6',
     },
     {
-      loc: '/alquran/7',
+      loc: '/al-quran/7',
     },
     {
-      loc: '/alquran/8',
+      loc: '/al-quran/8',
     },
     {
-      loc: '/alquran/9',
+      loc: '/al-quran/9',
     },
     {
-      loc: '/alquran/10',
+      loc: '/al-quran/10',
     },
     {
-      loc: '/alquran/11',
+      loc: '/al-quran/11',
     },
     {
-      loc: '/alquran/12',
+      loc: '/al-quran/12',
     },
     {
-      loc: '/alquran/13',
+      loc: '/al-quran/13',
     },
     {
-      loc: '/alquran/14',
+      loc: '/al-quran/14',
     },
     {
-      loc: '/alquran/15',
+      loc: '/al-quran/15',
     },
     {
-      loc: '/alquran/16',
+      loc: '/al-quran/16',
     },
     {
-      loc: '/alquran/17',
+      loc: '/al-quran/17',
     },
     {
-      loc: '/alquran/18',
+      loc: '/al-quran/18',
     },
     {
-      loc: '/alquran/19',
+      loc: '/al-quran/19',
     },
     {
-      loc: '/alquran/20',
+      loc: '/al-quran/20',
     },
     {
-      loc: '/alquran/21',
+      loc: '/al-quran/21',
     },
     {
-      loc: '/alquran/22',
+      loc: '/al-quran/22',
     },
     {
-      loc: '/alquran/23',
+      loc: '/al-quran/23',
     },
     {
-      loc: '/alquran/24',
+      loc: '/al-quran/24',
     },
     {
-      loc: '/alquran/25',
+      loc: '/al-quran/25',
     },
     {
-      loc: '/alquran/26',
+      loc: '/al-quran/26',
     },
     {
-      loc: '/alquran/27',
+      loc: '/al-quran/27',
     },
     {
-      loc: '/alquran/28',
+      loc: '/al-quran/28',
     },
     {
-      loc: '/alquran/29',
+      loc: '/al-quran/29',
     },
     {
-      loc: '/alquran/30',
+      loc: '/al-quran/30',
     },
     {
-      loc: '/alquran/31',
+      loc: '/al-quran/31',
     },
     {
-      loc: '/alquran/32',
+      loc: '/al-quran/32',
     },
     {
-      loc: '/alquran/33',
+      loc: '/al-quran/33',
     },
     {
-      loc: '/alquran/34',
+      loc: '/al-quran/34',
     },
     {
-      loc: '/alquran/35',
+      loc: '/al-quran/35',
     },
     {
-      loc: '/alquran/36',
+      loc: '/al-quran/36',
     },
     {
-      loc: '/alquran/37',
+      loc: '/al-quran/37',
     },
     {
-      loc: '/alquran/38',
+      loc: '/al-quran/38',
     },
     {
-      loc: '/alquran/39',
+      loc: '/al-quran/39',
     },
     {
-      loc: '/alquran/40',
+      loc: '/al-quran/40',
     },
     {
-      loc: '/alquran/41',
+      loc: '/al-quran/41',
     },
     {
-      loc: '/alquran/42',
+      loc: '/al-quran/42',
     },
     {
-      loc: '/alquran/43',
+      loc: '/al-quran/43',
     },
     {
-      loc: '/alquran/44',
+      loc: '/al-quran/44',
     },
     {
-      loc: '/alquran/45',
+      loc: '/al-quran/45',
     },
     {
-      loc: '/alquran/46',
+      loc: '/al-quran/46',
     },
     {
-      loc: '/alquran/47',
+      loc: '/al-quran/47',
     },
     {
-      loc: '/alquran/48',
+      loc: '/al-quran/48',
     },
     {
-      loc: '/alquran/49',
+      loc: '/al-quran/49',
     },
     {
-      loc: '/alquran/50',
+      loc: '/al-quran/50',
     },
     {
-      loc: '/alquran/51',
+      loc: '/al-quran/51',
     },
     {
-      loc: '/alquran/52',
+      loc: '/al-quran/52',
     },
     {
-      loc: '/alquran/53',
+      loc: '/al-quran/53',
     },
     {
-      loc: '/alquran/54',
+      loc: '/al-quran/54',
     },
     {
-      loc: '/alquran/55',
+      loc: '/al-quran/55',
     },
     {
-      loc: '/alquran/56',
+      loc: '/al-quran/56',
     },
     {
-      loc: '/alquran/57',
+      loc: '/al-quran/57',
     },
     {
-      loc: '/alquran/58',
+      loc: '/al-quran/58',
     },
     {
-      loc: '/alquran/59',
+      loc: '/al-quran/59',
     },
     {
-      loc: '/alquran/60',
+      loc: '/al-quran/60',
     },
     {
-      loc: '/alquran/61',
+      loc: '/al-quran/61',
     },
     {
-      loc: '/alquran/62',
+      loc: '/al-quran/62',
     },
     {
-      loc: '/alquran/63',
+      loc: '/al-quran/63',
     },
     {
-      loc: '/alquran/64',
+      loc: '/al-quran/64',
     },
     {
-      loc: '/alquran/65',
+      loc: '/al-quran/65',
     },
     {
-      loc: '/alquran/66',
+      loc: '/al-quran/66',
     },
     {
-      loc: '/alquran/67',
+      loc: '/al-quran/67',
     },
     {
-      loc: '/alquran/68',
+      loc: '/al-quran/68',
     },
     {
-      loc: '/alquran/69',
+      loc: '/al-quran/69',
     },
     {
-      loc: '/alquran/70',
+      loc: '/al-quran/70',
     },
     {
-      loc: '/alquran/71',
+      loc: '/al-quran/71',
     },
     {
-      loc: '/alquran/72',
+      loc: '/al-quran/72',
     },
     {
-      loc: '/alquran/73',
+      loc: '/al-quran/73',
     },
     {
-      loc: '/alquran/74',
+      loc: '/al-quran/74',
     },
     {
-      loc: '/alquran/75',
+      loc: '/al-quran/75',
     },
     {
-      loc: '/alquran/76',
+      loc: '/al-quran/76',
     },
     {
-      loc: '/alquran/77',
+      loc: '/al-quran/77',
     },
     {
-      loc: '/alquran/78',
+      loc: '/al-quran/78',
     },
     {
-      loc: '/alquran/79',
+      loc: '/al-quran/79',
     },
     {
-      loc: '/alquran/80',
+      loc: '/al-quran/80',
     },
     {
-      loc: '/alquran/81',
+      loc: '/al-quran/81',
     },
     {
-      loc: '/alquran/82',
+      loc: '/al-quran/82',
     },
     {
-      loc: '/alquran/83',
+      loc: '/al-quran/83',
     },
     {
-      loc: '/alquran/84',
+      loc: '/al-quran/84',
     },
     {
-      loc: '/alquran/85',
+      loc: '/al-quran/85',
     },
     {
-      loc: '/alquran/86',
+      loc: '/al-quran/86',
     },
     {
-      loc: '/alquran/87',
+      loc: '/al-quran/87',
     },
     {
-      loc: '/alquran/88',
+      loc: '/al-quran/88',
     },
     {
-      loc: '/alquran/89',
+      loc: '/al-quran/89',
     },
     {
-      loc: '/alquran/90',
+      loc: '/al-quran/90',
     },
     {
-      loc: '/alquran/81',
+      loc: '/al-quran/91',
     },
     {
-      loc: '/alquran/82',
+      loc: '/al-quran/92',
     },
     {
-      loc: '/alquran/83',
+      loc: '/al-quran/93',
     },
     {
-      loc: '/alquran/84',
+      loc: '/al-quran/94',
     },
     {
-      loc: '/alquran/85',
+      loc: '/al-quran/95',
     },
     {
-      loc: '/alquran/86',
+      loc: '/al-quran/96',
     },
     {
-      loc: '/alquran/87',
+      loc: '/al-quran/97',
     },
     {
-      loc: '/alquran/88',
+      loc: '/al-quran/98',
     },
     {
-      loc: '/alquran/89',
+      loc: '/al-quran/99',
     },
     {
-      loc: '/alquran/90',
+      loc: '/al-quran/100',
     },
     {
-      loc: '/alquran/81',
+      loc: '/al-quran/101',
     },
     {
-      loc: '/alquran/82',
+      loc: '/al-quran/102',
     },
     {
-      loc: '/alquran/83',
+      loc: '/al-quran/103',
     },
     {
-      loc: '/alquran/84',
+      loc: '/al-quran/104',
     },
     {
-      loc: '/alquran/85',
+      loc: '/al-quran/105',
     },
     {
-      loc: '/alquran/86',
+      loc: '/al-quran/106',
     },
     {
-      loc: '/alquran/87',
+      loc: '/al-quran/107',
     },
     {
-      loc: '/alquran/88',
+      loc: '/al-quran/108',
     },
     {
-      loc: '/alquran/89',
+      loc: '/al-quran/109',
     },
     {
-      loc: '/alquran/90',
+      loc: '/al-quran/110',
     },
     {
-      loc: '/alquran/91',
+      loc: '/al-quran/111',
     },
     {
-      loc: '/alquran/92',
+      loc: '/al-quran/112',
     },
     {
-      loc: '/alquran/93',
+      loc: '/al-quran/113',
     },
     {
-      loc: '/alquran/94',
-    },
-    {
-      loc: '/alquran/95',
-    },
-    {
-      loc: '/alquran/96',
-    },
-    {
-      loc: '/alquran/97',
-    },
-    {
-      loc: '/alquran/98',
-    },
-    {
-      loc: '/alquran/99',
-    },
-    {
-      loc: '/alquran/100',
-    },
-    {
-      loc: '/alquran/101',
-    },
-    {
-      loc: '/alquran/102',
-    },
-    {
-      loc: '/alquran/103',
-    },
-    {
-      loc: '/alquran/104',
-    },
-    {
-      loc: '/alquran/105',
-    },
-    {
-      loc: '/alquran/106',
-    },
-    {
-      loc: '/alquran/107',
-    },
-    {
-      loc: '/alquran/108',
-    },
-    {
-      loc: '/alquran/109',
-    },
-    {
-      loc: '/alquran/110',
-    },
-    {
-      loc: '/alquran/101',
-    },
-    {
-      loc: '/alquran/102',
-    },
-    {
-      loc: '/alquran/103',
-    },
-    {
-      loc: '/alquran/104',
-    },
-    {
-      loc: '/alquran/105',
-    },
-    {
-      loc: '/alquran/106',
-    },
-    {
-      loc: '/alquran/107',
-    },
-    {
-      loc: '/alquran/108',
-    },
-    {
-      loc: '/alquran/109',
-    },
-    {
-      loc: '/alquran/110',
-    },
-    {
-      loc: '/alquran/111',
-    },
-    {
-      loc: '/alquran/112',
-    },
-    {
-      loc: '/alquran/113',
-    },
-    {
-      loc: '/alquran/114',
+      loc: '/al-quran/114',
     },
   ]
 })
